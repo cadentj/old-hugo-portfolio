@@ -1,0 +1,24 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: CTJ
+theme: "PaperMod"
+
+
+params:
+  disableThemeToggle: true
+
+
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /tags/blog/
+      weight: 20
+    - identifier: archive
+      name: archive
+      url: /archives/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
