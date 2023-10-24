@@ -5,19 +5,40 @@ theme: "PaperMod"
 
 
 params:
-  disableThemeToggle: true
+    ShowBreadCrumbs: true
+    disableThemeToggle: true
+    homeInfoParams:
+        Title: Hey, I'm Caden! ✌️
+        Content: "
+          I love thinking about how algorithms can be used to improve our systems of governance. Currently, I'm building geometric deep learning methods for [urban informatics](https://sites.google.com/view/uirlab/home) and writing [tools](http://nnsight.net/index.html) for [interpretability research](https://baulab.info/).
 
 
+          "
+    socialIcons:
+        - name: github
+          url: "https://github.com/adityatelange/hugo-PaperMod"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/caden-juang"
+        - name: twitter
+          url: "https://twitter.com/kh4dien"
 menu:
   main:
+    - identifier: projects
+      name: projects
+      url: /tags/projects/
+      weight: 20
+    - identifier: about
+      name: about me
+      url: /posts/intro/
+      weight: 20
     - identifier: blog
       name: blog
       url: /tags/blog/
-      weight: 20
-    - identifier: archive
-      name: archive
-      url: /archives/
-      weight: 20
+      weight: 25
+    # - identifier: archive
+    #   name: archive
+    #   url: /archives/
+    #   weight: 25
     - identifier: example
       name: example.org
       url: https://example.org
