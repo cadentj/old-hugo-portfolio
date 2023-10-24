@@ -5,7 +5,7 @@ theme: "PaperMod"
 
 
 params:
-    ShowBreadCrumbs: true
+    # ShowBreadCrumbs: true
     disableThemeToggle: true
     homeInfoParams:
         Title: Hey, I'm Caden! ✌️

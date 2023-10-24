@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2023-10-20T22:47:54-04:00
+# date: 2023-10-20T22:47:54-04:00
 draft: false
 weight: 2
 tags: ["blog"]

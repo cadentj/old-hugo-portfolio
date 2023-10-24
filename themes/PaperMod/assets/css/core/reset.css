@@ -114,7 +114,7 @@ textarea:-webkit-autofill {
 
 img {
     display: block;
-    max-width: 85%;
+    max-width: 100%;
     margin: 1.0rem auto;
 }
 
