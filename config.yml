@@ -10,7 +10,7 @@ params:
     homeInfoParams:
         Title: Hey, I'm Caden! ✌️
         Content: "
-          I love thinking about how algorithms can be used to improve our systems of governance. Currently, I'm building geometric deep learning methods for [urban informatics](https://sites.google.com/view/uirlab/home) and writing [tools](http://nnsight.net/index.html) for [interpretability research](https://baulab.info/)."
+          I like thinking about transparent, steerable systems of data and governance. These days, I'm involved in [AI safety efforts](https://baulab.info/) between Boston and Cambridge."
     socialIcons:
         - name: github
           url: "https://github.com/adityatelange/hugo-PaperMod"
@@ -24,14 +24,14 @@ menu:
       name: projects
       url: /tags/projects/
       weight: 20
-    - identifier: about
-      name: about
-      url: /posts/intro/
-      weight: 20
-    - identifier: blog
-      name: blog
-      url: /tags/blog/
-      weight: 25
+    # - identifier: about
+    #   name: about
+      # url: /posts/intro/
+      # weight: 20
+    # - identifier: blog
+    #   name: blog
+    #   url: /tags/blog/
+    #   weight: 25
     # - identifier: archive
     #   name: archive
     #   url: /archives/
